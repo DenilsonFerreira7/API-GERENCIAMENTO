@@ -38,8 +38,7 @@ import java.util.stream.Collectors;
         Maquinas maquinas = verifyifExists(patrimonio);
         return maquinaRepository.findById(patrimonio);
     }
-    public Maquinas findByChamado(Long chamado) throws MaquinaNotFoundException {
-        Maquinas maquinas = verifyifExists(chamado);
+    public Maquinas findByChamado(Long chamado) {
         return maquinaRepository.findByChamado(chamado);
     }
     public void delete(Long patrimonio) throws MaquinaNotFoundException {

@@ -46,7 +46,7 @@ import java.util.Optional;
         }
         @GetMapping("/{Consultar pelo chamado}")
         @ApiOperation(value = "Encontrar pelo chamado")
-        public Maquinas findByChamado(@RequestParam Long chamado) throws MaquinaNotFoundException {
+        public Maquinas findByChamado(@RequestParam Long chamado) {
             return maquinaService.findByChamado(chamado);
         }
         @DeleteMapping("/{DELETAR}")
