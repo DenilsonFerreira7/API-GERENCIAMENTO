@@ -3,7 +3,7 @@
     <option name="ALTERNATIVE_JRE_PATH" value="17" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="lab.ti.com.br.lab.ti.Application" />
-    <module name="API-REST-Spring-boot---Swagger---Gerenciamento-API-REST-SWAGGER-CRUD" />
+    <module name="API-GERENCIAMENTO" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="lab.ti.com.br.lab.ti.*" />
