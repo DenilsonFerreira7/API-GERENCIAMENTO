@@ -32,7 +32,7 @@ POST - Registra uma maquina no banco de dados.
 
 PUT - Atualiza um dado existente.
 
-GET - Consulta, informações pelo patrimônio.
+GET - Consulta, informações.
 
 DELETE - Deleta registro do banco de dados.
 
